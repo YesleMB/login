@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgba(170, 165, 165, 0.707);
+}
+.formulario-registrar{
+    display: block;
+    flex-direction: column;
+    border: solid 5px;
+    border-style: inset;
+    margin-top: 15rem;
+    width: 16rem;
+    height: 16rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(96, 103, 103, 0.262);
+    z-index: 1;
+    
+}
+input{
+    margin: 8px;
+    border: solid 2px;
+   
+}
+button{
+    background-color: rgb(96, 103, 103, 0.262);
+    cursor: pointer;
+}
+.login{
+    display: none;
+    border: solid 5px;
+    border-style: inset;
+    margin-top: 15rem;
+    width: 16rem;
+    height: 16rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(96, 103, 103, 0.262);
+
+}
+h2 {
+    margin-bottom: 5px;
+}

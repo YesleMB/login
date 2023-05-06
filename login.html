@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>entrar</title>
+</head>
+
+<body>
+    <div class="formulario-registrar">
+        <form action="" method="get">
+            <h2 class="titulo">
+                <b>preencha os espaços para se registrar</b>
+            </h2>
+
+
+        
+            <input type="text" name="nome"  placeholder="digite seu nome" required>
+            <br>
+            
+            <input type="text" name="sobrenome"  placeholder="digite seu sobrenome" required>
+            <br>
+            
+            <input type="text" name="email"  placeholder=" digite seu email" required>
+            <br>
+
+            <input type="password" name="senha" placeholder="digite sua senha" required>
+            <br>
+            <button> registrar </button>
+            <div class="botaotrocarRgistrar"><button onclick="virarlogin()">conectar</button></div>
+        </form>
+    </div>
+    <div class="login">
+        <form action="" method="get">
+            <h2 class="titulo">
+                <b>preencha os espaços para fazer login</b>
+            </h2>
+            <input type="text" name="email" placeholder=" digite seu email" required>
+            <br>
+            <input type="password" name="senha" placeholder="digite sua senha" required>
+            <br>
+            <button class="botoLogin"> login </button>
+            <div class="botaotrocar"><button onclick="virarTela2()">registrar-se</button></div>
+        </form>
+
+    </div>
+
+
+    <script>
+        function virarlogin() {
+
+            document.querySelector(".login").style.display = "block";
+            document.querySelector(".formulario-registrar").style.display = "none";
+        }
+        function virarTela2() {
+
+            document.querySelector(".formulario-registrar").style.display = "block";
+            document.querySelector(".login").style.display = "none";
+        }
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
